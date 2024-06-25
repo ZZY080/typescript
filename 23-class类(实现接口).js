@@ -4,6 +4,7 @@ var Person = /** @class */ (function () {
     }
     Person.prototype.sing = function () {
         console.log("123");
+        return 1;
     };
     return Person;
 }());

@@ -1,11 +1,12 @@
-interface Singale {
+interface Sing {
     sing():void
     name:string
 }
-class Person implements Singale {
+class Person implements Sing {
     name="jack";
-    sing(): void {
+    sing(){
         console.log("123")
+        return 1;
     }
 }
 const p = new Person();
